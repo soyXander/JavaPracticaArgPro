@@ -6,9 +6,12 @@
  */
 package com.argentinaprograma.ejercicios.vectores;
 
+/**
+ * @author Xander.-
+ */
 public class Ejercicio4 {
 	public static void main(String[] args) {
-		int[] maxTemps  = new int[23];
+		int[] maxTemps = new int[23];
 		int[] top5Temps = new int[5];
 
 		// Inicializar vector de temperaturas maximas con valores aleatorios entre 0 y 60
@@ -17,8 +20,7 @@ public class Ejercicio4 {
 			maxTemps[i] = (int) (Math.random() * (60 - 0) + 0);
 			if (i < maxTemps.length - 1) {
 				System.out.print(maxTemps[i] + ", ");
-			}
-			else {
+			} else {
 				System.out.println(maxTemps[i]);
 			}
 		}
@@ -42,7 +44,7 @@ public class Ejercicio4 {
 		// Mostrar top 5 de temperaturas maximas
 		System.out.println("\nLas temperaturas más altas son: ");
 		for (int i = 0; i < top5Temps.length; i++) {
-			System.out.println("Top "+ (i + 1) +": " +top5Temps[i] + "ºC");
+			System.out.println("Top " + (i + 1) + ": " + top5Temps[i] + "ºC");
 		}
 	}
 }

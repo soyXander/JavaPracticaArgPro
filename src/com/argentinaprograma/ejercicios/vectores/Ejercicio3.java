@@ -8,6 +8,9 @@
  */
 package com.argentinaprograma.ejercicios.vectores;
 
+/**
+ * @author Xander.-
+ */
 public class Ejercicio3 {
 	public static void main(String[] args) {
 		int[] dni = {37123456, 21456789, 22741852};

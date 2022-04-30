@@ -6,6 +6,10 @@
  */
 package com.argentinaprograma.ejercicios.vectores;
 
+/**
+ * @author Xander.-
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio5 {
