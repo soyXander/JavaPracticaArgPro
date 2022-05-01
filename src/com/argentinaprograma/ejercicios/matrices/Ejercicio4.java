@@ -22,7 +22,7 @@ public class Ejercicio4 {
 
 		Scanner sc = new Scanner(System.in);
 
-		//
+		//  Ingreso de datos por teclado
 		for (int i = 0; i < menu.length; i++) {
 			System.out.print("Ingrese el plato principal: ");
 			menu[i][0] = sc.nextLine();
@@ -32,6 +32,7 @@ public class Ejercicio4 {
 			}
 		}
 
+		//  Busqueda de plato principal y mostrar los acompañamientos automaticamente
 		System.out.print("Ingrese su pedido: ");
 		String pedido = sc.nextLine();
 		for (int i = 0; i < menu.length; i++) {
