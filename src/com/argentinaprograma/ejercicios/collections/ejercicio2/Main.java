@@ -15,6 +15,9 @@ package com.argentinaprograma.ejercicios.collections.ejercicio2;
 import java.util.LinkedList;
 import java.util.Random;
 
+/**
+ * @author Xander.-
+ */
 public class Main {
     public static LinkedList<Persona> listaPersonas = new LinkedList<>();
     public static LinkedList<Persona> listaPersonasMayores = new LinkedList<>();
